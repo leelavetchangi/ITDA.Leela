@@ -14,7 +14,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 const allowedOrigin = process.env.CLIENT_URL;
 
-app.use(cors(allowedOrigin ? { origin: allowedOrigin } : undefined));
+app.use(cors());
 app.use(express.json());
 app.use('/api/auth', authRoutes);
 app.use('/api/checkin', attendanceRoutes);

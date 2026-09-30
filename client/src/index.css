@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+:root {
+  font-family: 'Space Grotesk', 'Trebuchet MS', sans-serif;
+  color: #17201c;
+  background: #f2f0e9;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --ink: #17201c;
+  --muted: #68716b;
+  --paper: #fbfaf6;
+  --line: #d9ddd5;
+  --green: #174b3c;
+  --lime: #d9ef7a;
+  --coral: #e46d4d;
+}
+
+* { box-sizing: border-box; }
+
+body { margin: 0; min-width: 320px; min-height: 100vh; }
+
+button, input { font: inherit; }
+
+button { cursor: pointer; }
+
+button:disabled { cursor: wait; opacity: 0.65; }
+
+#root { min-height: 100vh; }
+
+h1, h2, p { margin-top: 0; }
+
+a { color: inherit; }
